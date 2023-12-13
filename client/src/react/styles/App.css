@@ -1,0 +1,64 @@
+@import './fonts/Source_Sans_Pro/SaurceSansPro.css';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p,
+textarea,
+span {
+  font-family: 'Source Sans Pro';
+}
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 6px !important;
+}
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  height: 0;
+  background-color: transparent;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb:vertical {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  height: 1px;
+  display: block;
+  background-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
