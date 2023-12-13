@@ -6,6 +6,7 @@ import User from '../models/User.js'
 export const register = async (req, res) => {
   try {
     const { firstName, email, password, male, birthDay } = req.body
+
     const avatar = await req.files.picture[0].filename
     const salt = await bcrypt.genSalt(5)
     const passwordHash = await bcrypt.hash(password, salt)
